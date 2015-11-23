@@ -8,6 +8,10 @@ bear_4 = Bear.new('Ben', 'Gentle', "hiya")
 
 bears = [bear_1, bear_2, bear_3, bear_4]
 
-puts bear_1.roar
-puts bear_1.name
-puts bear_1.type
+def roar_all(bears)
+  bears.each do |bear|
+    puts bear.roar
+  end
+end
+
+roar_all(bears)
