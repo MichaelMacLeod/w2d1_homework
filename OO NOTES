@@ -1,0 +1,16 @@
+OO NOTES
+create bear class then bear objects: name, type, 
+
+eg Yogi, Grizzly, "RAR"
+eg China, Panda, "meep"
+
+------
+Collection class
+
+name them, then like with BANK in BankAccounts example, river, pass the objs into it. 
+
+---------
+
+Objs working together: 
+Wanna create a bear with name and type. It could also have array with food in. When all used, empty array. 
+Then take the fish from river, for river to lose fish, and bear to now have food in array. 
